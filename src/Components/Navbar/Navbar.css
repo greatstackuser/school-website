@@ -60,11 +60,17 @@ nav ul li{
 /* ----- media query ----------- */
 
 @media (max-width: 1000px){
+    .logo{
+        width: 80px;
+    }
     nav ul li{
         margin: 10px 15px;
     }
 }
 @media (max-width: 840px){
+    .logo{
+        width: 50px;
+    }
     nav{
         padding: 15px 0;
     }
