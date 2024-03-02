@@ -19,6 +19,7 @@ nav ul li{
     list-style: none;
     margin: 5px 20px;
     font-size: 16px;
+    padding: 15px 0px;
 }
 .dark-nav{
     background: #212EA0;
@@ -31,6 +32,30 @@ nav ul li{
 }
 .menu-icon{
     display: none;
+}
+.relative{
+    position: relative;
+}
+.sub-menu{
+    position: absolute;
+    top: 40px;
+    width: max-content;
+    background-color: white;
+    color: black;
+    padding: 10px 8px;
+    display: none;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.sub-menu p{
+    padding: 10px 10px;
+}
+.sub-menu p:hover{
+    background-color: #9cf0ff;
+    border-radius: 5px;
+}
+.relative:hover .sub-menu{
+    display: flex;
 }
 /* ----- media query ----------- */
 
