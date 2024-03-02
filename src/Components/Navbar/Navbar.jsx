@@ -28,7 +28,7 @@ const Navbar = () => {
     <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
       <img src={logo} alt="" className='logo' />
       <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
-        <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
+        <li onClick={()=>{navigate('/');window.scrollTo(0,0)}}>Home</li>
         <li className='relative'><Link to='program' smooth={true} offset={-260} duration={500}>
           <p>Program</p>
           <div className='sub-menu'>

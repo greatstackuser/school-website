@@ -9,7 +9,7 @@
     max-width: 1000px;
     margin: 50px auto;
     border: 5px solid black;
-    padding: 30px 20px;
+    padding: 30px;
     border-image: linear-gradient(#277DFF, #FF7557) 30;
     display: flex;
     flex-direction: column;
@@ -21,4 +21,23 @@
 }
 .about-container img{
     max-width: 320px ;
+}
+.our-team-flex{
+display: flex;
+align-items: start;
+gap: 30px;
+}
+.our-team-flex img{
+    padding-top: 5px;
+    max-width: 120px;
+}
+
+@media (max-width:800px) {
+    .our-team-flex{
+        flex-direction: column;
+        }
+        .our-team-flex img{
+           width: 100%;
+           max-width: none;
+        }
 }
