@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="hero-text">
       <h4>Admissions are open <img src={msg_icon} alt="" /></h4>
         <h1>ARIS-TOT-LERS </h1>
-        <p>Our A Reggio Inspired School for Toddlers where Learning <br/> Enhances Reasoning</p>
+        <p>A Reggio Inspired School for Toddlers where Learning <br/> Enhances Reasoning</p>
         <button className='btn'>Explore more <img src={dark_arrow} alt="" /></button>
       </div>
     </div>
