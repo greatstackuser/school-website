@@ -6,12 +6,18 @@ const ChildCare = () => {
   return (
     <div>
       <img className='half-header' src={half_header} alt="" />
-            <div className="about-container">
-                <img src={child_care} alt="" />
-                <p>At Aris-tot-lers Global Preschool, we are committed to providing a nurturing environment where learning enhances reasoning, thereby developing responsible and passionate citizens of the world.</p>
-                <p>We provide a positive atmosphere where children can thrive and fulfil their potential thereby ensuring their academic and overall growth. We started out as a franchisee of Serra International Preschool in the year 2015 and after 4 years of successfully handling hundreds of children, we became Aris-tot-lers Global Preschool in 2019. We continue to be inspired by the Reggio philosophy ensuring a continuous assessment of our pedagogy that focuses on learner performance and development.</p>
-                <p>Development is the term used to describe the changes in children's physical growth, as well as their ability to learn the social, emotional, behavioural, thinking and communication skills which they need for life. All of these are linked, and each depends on and influences the others. Children's early experiences, their relationships and the things they see, hear, touch, smell and taste, stimulate their brain, creating millions of connections. This is where we come in - to lay the foundation for learning, healthy and positive behaviour for their life.</p>
-            </div>
+      <div className="about-container">
+        <img src={child_care} alt="" />
+
+        <p>Our child care program is designed to provide children with a warm and family-oriented environment, at the same time ensuring that your child is observed, encouraged and supported by our expert care givers. We also ensure that your child in engaged in physical, social and intellectual programs thereby stimulating learning and development.
+        </p>
+        <ul>
+        <p>Timings: 11:30 am to 6:30 pm</p>
+        <p>Half Day Program: Less than or up to 4 hours (flexible starting time)</p>
+        <p>Full Day Program: More than 4 hours</p>
+        </ul>
+
+      </div>
     </div>
   )
 }

@@ -8,9 +8,17 @@ const OurCurriculum = () => {
       <img className='half-header' src={half_header} alt="" />
       <div className="about-container">
         <img src={our_curriculum} alt="" />
-        <p>At Aris-tot-lers Global Preschool, we are committed to providing a nurturing environment where learning enhances reasoning, thereby developing responsible and passionate citizens of the world.</p>
-        <p>We provide a positive atmosphere where children can thrive and fulfil their potential thereby ensuring their academic and overall growth. We started out as a franchisee of Serra International Preschool in the year 2015 and after 4 years of successfully handling hundreds of children, we became Aris-tot-lers Global Preschool in 2019. We continue to be inspired by the Reggio philosophy ensuring a continuous assessment of our pedagogy that focuses on learner performance and development.</p>
-        <p>Development is the term used to describe the changes in children's physical growth, as well as their ability to learn the social, emotional, behavioural, thinking and communication skills which they need for life. All of these are linked, and each depends on and influences the others. Children's early experiences, their relationships and the things they see, hear, touch, smell and taste, stimulate their brain, creating millions of connections. This is where we come in - to lay the foundation for learning, healthy and positive behaviour for their life.</p>
+        <p>Our Curriculum is grounded in the Reggio Emilia philosophy and the Early Learning Goals.</p>
+        <p>The Reggio Emilia Approach is an innovative and inspiring approach to early childhood education which values the child as strong, capable and resilient; rich with wonder and knowledge. The Reggio approach to early education is based on the belief that every child has an infinite potential and competence at birth, to explore and learn on their own. It is built on the foundation of facilitation rather than teaching. The child is encouraged to engage their curiosity. The Reggio Emilia approach believes the children need to learn from their immediate environment. They learn through various activities, projects and discussions both inside and out the classroom. The classroom itself is an important environment which is naturally lit and incorporates natural elements.</p>
+        <p>The Early Learning Goals define the standard that a child is expected to achieve by the end of their reception year in order to meet the standards for their age. Through our curriculum we ensure to provide extensive and balanced learning experiences. We ensure that all areas of development are covered and children are provided with a holistic growth. There are 6 areas of development that our curriculum concentrates on:</p>
+        <ul>
+          <p>Expressive Arts and Design</p>
+          <p>Language, Literacy and Communication</p>
+          <p>Logical and Numerical</p>
+          <p>Personal, Social and Emotional</p>
+          <p>Physical</p>
+          <p>Understanding the World</p>
+        </ul>
       </div>
     </div>
   )

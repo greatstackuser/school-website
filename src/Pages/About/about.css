@@ -14,14 +14,21 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    align-items: center;
+    align-items: left;
 }
 .about-container p{
     line-height: 1.5;
 }
+.about-container li{
+    align-items: start;
+}
 .about-container img{
     max-width: 320px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
+
 .our-team-flex{
 display: flex;
 align-items: start;
