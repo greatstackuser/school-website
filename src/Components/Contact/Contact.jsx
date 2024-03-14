@@ -38,7 +38,7 @@ const Contact = () => {
   return (
     <div className='contact'>
       <div className="contact-col">
-        <h3>Admissions are open <img src={msg_icon} alt="" /></h3>
+        <h3>Admissions are openn <img src={msg_icon} alt="" /></h3>
         <p>We are delighted to announce that admissions are now open at Aristotlers. For more information or to schedule a visit, please fill out the form below or contact us on the given details.</p>
         <ul>
             <li><img src={mail_icon} alt="" />info.whitefield@aristotlers.com</li>
