@@ -41,9 +41,16 @@ const Contact = () => {
         <h3>Admissions are open <img src={msg_icon} alt="" /></h3>
         <p>We are delighted to announce that admissions are now open at Aristotlers. For more information or to schedule a visit, please fill out the form below or contact us on the given details.</p>
         <ul>
+          <li><b>Whitefield Branch</b></li>
             <li><img src={mail_icon} alt="" />info.whitefield@aristotlers.com</li>
             <li><img src={phone_icon} alt="" />+91 89510 19510</li>
-            <li><img src={location_icon} alt="" />Plot no. 147/2, Karumariyamma Temple <br/> Road, Next to Post Office Road, <br/> Whitefield, Bangalore </li>
+            <li><img src={location_icon} alt="" />#147/2, Karumariyamma Temple Road, <br/> Next to Post Office Road, Whitefield, Bangalore </li>
+        </ul>
+        <ul>
+        <li><b>Brookefield Branch</b></li>
+            <li><img src={mail_icon} alt="" />info@aristotlers.com</li>
+            <li><img src={phone_icon} alt="" />+91 9535039535</li>
+            <li><img src={location_icon} alt="" />#311, 'B' Block, AECS Layout, Kundalahalli <br/> Bangalore, 560034 </li>
         </ul>
       </div>
       <div className="contact-col">

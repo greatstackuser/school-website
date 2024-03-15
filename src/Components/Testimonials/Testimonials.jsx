@@ -34,25 +34,13 @@ const slideBackward = ()=>{
             <li>
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_1} alt="" />
-                        <div>
-                            <h3>Garima Tiwari</h3>
-                            <span>AECS Layout</span>
-                        </div>
-                    </div>
-                    <p>I am blessed to have my daughter in this preschool and day care. All staff is like family. They lay solid foundation for kids future. They have instilled so much confidence in her and I can see the difference day by day.</p>
-                </div>
-            </li>
-            <li>
-                <div className="slide">
-                    <div className="user-info">
                         <img src={user_2} alt="" />
                         <div>
-                            <h3>Mahesh kadam</h3>
+                            <h3>Himanshu Kandpal</h3>
                             <span>AECS Layout</span>
                         </div>
                     </div>
-                    <p>I am blessed to have my daughter in this preschool and day care. All staff is like family. They lay solid foundation for kids future. They have instilled so much confidence in her and I can see the difference day by day.</p>
+                    <p>Perhaps the best pre school in the area. My daughter studied here from pre nursery till K2 learning a lot and loving every moment of it. Teachers very professional and knowledgeable and they also pay individual attention to all kids.</p>
                 </div>
             </li>
             <li>
@@ -60,11 +48,11 @@ const slideBackward = ()=>{
                     <div className="user-info">
                         <img src={user_3} alt="" />
                         <div>
-                            <h3>Garima Tiwari</h3>
+                            <h3>Sankar Gopalan</h3>
                             <span>AECS Layout</span>
                         </div>
                     </div>
-                    <p>I am blessed to have my daughter in this preschool and day care. All staff is like family. They lay solid foundation for kids future. They have instilled so much confidence in her and I can see the difference day by day.</p>
+                    <p>We are very happy to have selected Aristotlers for our kid (preschool and daycare) . The staff are very professional and take our feedback very seriously. Our kid looks forward to go to school everyday now.</p>
                 </div>
             </li>
             <li>
@@ -72,11 +60,23 @@ const slideBackward = ()=>{
                     <div className="user-info">
                         <img src={user_4} alt="" />
                         <div>
-                            <h3>Mahesh kadam</h3>
+                            <h3>Tejal Patel</h3>
                             <span>AECS Layout</span>
                         </div>
                     </div>
-                    <p>I am blessed to have my daughter in this preschool and day care. All staff is like family. They lay solid foundation for kids future. They have instilled so much confidence in her and I can see the difference day by day.</p>
+                    <p>The best school and daycare in town. The management and staff is very impressive and you can give the best start to your kid. It’s been 6 years now since we are associated with the school and daycare, and we are proud of that.</p>
+                </div>
+            </li>
+            <li>
+                <div className="slide">
+                    <div className="user-info">
+                        <img src={user_1} alt="" />
+                        <div>
+                            <h3>Vani Krishnamurthy</h3>
+                            <span>AECS Layout</span>
+                        </div>
+                    </div>
+                    <p>Wonderful pre-school. Teachers are very attentive to each kids’ needs. Overall it was very nice growth for my kid. He overcame many fears with help of teachers. He was unknown of English language but within few months started conversing in English very easily.</p>
                 </div>
             </li>
         </ul>
