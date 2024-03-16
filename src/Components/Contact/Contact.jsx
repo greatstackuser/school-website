@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Contact.css'
 import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
@@ -12,12 +12,18 @@ const Contact = () => {
 
     const onSubmit = async (event) => {
       event.preventDefault();
+      const hCaptcha = event.target.querySelector('textarea[name=h-captcha-response]').value;
+      if (!hCaptcha) {
+        event.preventDefault();
+        setResult("Please fill out captcha field");
+        return
+    };
       setResult("Sending....");
       const formData = new FormData(event.target);
 
       // ------Enter your web3forms access key below-------
       
-      formData.append("access_key", "-----Enter your web3forms key----");
+      formData.append("access_key", "794c2091-f12d-438e-bbf0-4d60ead3690f");
   
       const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -33,6 +39,48 @@ const Contact = () => {
         setResult(res.message);
       }
     };
+
+    function CaptchaLoader() {
+      const captchadiv = document.querySelectorAll('[data-captcha="true"]');
+      if (captchadiv.length) {
+        let lang = null;
+        let onload = null;
+        let render = null;
+  
+        captchadiv.forEach(function (item) {
+          const sitekey = item.dataset.sitekey;
+          lang = item.dataset.lang;
+          onload = item.dataset.onload;
+          render = item.dataset.render;
+  
+          if (!sitekey) {
+            item.dataset.sitekey = "50b2fe65-b00b-4b9e-ad62-3ba471098be2";
+          }
+        });
+  
+        let scriptSrc = "https://js.hcaptcha.com/1/api.js?recaptchacompat=off";
+        if (lang) {
+          scriptSrc += `&hl=${lang}`;
+        }
+        if (onload) {
+          scriptSrc += `&onload=${onload}`;
+        }
+        if (render) {
+          scriptSrc += `&render=${render}`;
+        }
+  
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.async = true;
+        script.defer = true;
+        script.src = scriptSrc;
+        document.body.appendChild(script);
+      }
+    }
+  
+    useEffect(() => {
+      CaptchaLoader();
+    }, []);
 
 
   return (
@@ -61,7 +109,8 @@ const Contact = () => {
             <input type="tel" name='phone' placeholder='Enter your mobile number' required/>
             <label>Write your messages here</label>
             <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
-            <button type='submit' className='btn dark-btn'>Submit now <img src={white_arrow} alt="" /></button>
+            <div className="h-captcha" data-captcha="true"></div>
+            <button type='submit' className='btn dark-btn submit-btn'>Submit now <img src={white_arrow} alt="" /></button>
         </form>
         <span>{result}</span>
       </div>

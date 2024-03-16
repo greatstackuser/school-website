@@ -55,6 +55,9 @@
     display: block;
     margin: 20px 0;
 }
+.submit-btn{
+    margin-top: 10px;
+}
 /* ----------- media query -------- */
 @media (max-width: 700px){
     .contact{
