@@ -6,8 +6,8 @@ const Footer = () => {
     <div className='footer'>
       <p>© 2024 Aristotlers. All rights reserved.</p>
       <ul>
-        <li><a href="#" target='_blank'>Terms of Services</a></li>
-        <li><a href="#" target='_blank'>Privacy Policy</a></li>
+        <li><a href="#">Terms of Services</a></li>
+        <li><a href="#">Privacy Policy</a></li>
       </ul>
     </div>
   )
