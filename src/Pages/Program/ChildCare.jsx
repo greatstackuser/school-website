@@ -11,11 +11,11 @@ const ChildCare = () => {
 
         <p>Our child care program is designed to provide children with a warm and family-oriented environment, at the same time ensuring that your child is observed, encouraged and supported by our expert care givers. We also ensure that your child in engaged in physical, social and intellectual programs thereby stimulating learning and development.
         </p>
-        <ul>
+        {/* <ul>
         <p>Timings: 11:30 am to 6:30 pm</p>
         <p>Half Day Program: Less than or up to 4 hours (flexible starting time)</p>
         <p>Full Day Program: More than 4 hours</p>
-        </ul>
+        </ul> */}
 
       </div>
     </div>
