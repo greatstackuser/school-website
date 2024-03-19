@@ -21,7 +21,7 @@ const PreSchool = () => {
           <p><b>Kindergarten 1: 4 years to 5 years</b></p>
           <p>Children now enjoy more confident movements and longer conversations. They are ready to start reading and writing and engage in discussions. Their world grows to include their neighbourhood, complex patterns, imaginative play, shades, concept of time and more. We engage with children in projects, develop their confidence through assembly talks, recitation and neighbourhood visits.
             </p>
-          <p><b>Kindergarten 2: 5 years to 5 years</b></p>
+          <p><b>Kindergarten 2: 5 years to 6 years</b></p>
           <p>Our K2 children learn to care about their natural environment, start thinking about the choices they make, engage in logical thinking and problem solving exercises and learn to be healthy individuals. They understand safety measures and their writing, communicating and reading skills improve. We create an environment both internal and external, where they showcase their talents and learnings. They are motivated and encouraged to think, to explore, to care and to enrich their knowledge bank thereby preparing them to face the challenges of a formal schooling system.
             </p>
       </div>
