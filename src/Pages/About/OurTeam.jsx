@@ -11,7 +11,7 @@ const OurTeam = () => {
       <div className="about-container">
         <img src={our_team} alt="" />
         <div className='our-team-flex'>
-          <img src={founder} alt="" />
+          <img src={founder} className='founder-img' alt="" />
           <p>Aris-tot-lers has been founded and is run by Ms. Vibha Nahata. Having an MBA in IT from SDSU, USA, coupled with a B.E in Comp Sci from University of Bombay, Ms. Vibha has spent about 15 years in the technology world working at TEC (R&D), Qualcomm and Cisco. A passionate individual, Ms. Vibha has also spent many years volunteering and working with children and young adults through community centres, government schools and charitable trusts.</p>
         </div>
         <p>Our teaching staff is professionally qualified with adequate experience and commitment to student development and learning. We have rigorous recruitment procedures in place, ensuring hiring of individuals with love for working with children and passion for learning. By providing extensive in-house training for further development ensures that our staff is well aware of the Reggio philosophy and its adaptation.</p>
