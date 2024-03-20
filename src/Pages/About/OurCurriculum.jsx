@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import half_header from '../../assets/half_header.png'
 import our_curriculum from '../../assets/our_curriculum.png'
 
 const OurCurriculum = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  }, []);
   return (
     <div>
       <img className='half-header' src={half_header} alt="" />

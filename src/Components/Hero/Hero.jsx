@@ -8,10 +8,10 @@ const Hero = () => {
   return (
     <div className='hero container'>
       <div className="hero-text">
-      <h4>Admissions are open <img src={msg_icon} alt="" /></h4>
+      <Link to="contact" smooth={true} offset={-260} duration={1000}><h4>Admissions are open <img src={msg_icon} alt="" /></h4></Link>
         <h1>ARIS-TOT-LERS </h1>
         <p>A Reggio Inspired School for Toddlers where Learning <br/> Enhances Reasoning</p>
-       <Link to="programs" smooth={true} offset={-260} duration={500}> <button className='btn'>Explore more <img src={dark_arrow} alt="" /></button></Link>
+       {/* <Link to="programs" smooth={true} offset={-260} duration={500}> <button className='btn'>Explore more <img src={dark_arrow} alt="" /></button></Link> */}
       </div>
     </div>
   )

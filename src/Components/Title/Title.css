@@ -11,4 +11,16 @@
     color: #000F38;
     margin-top: 5px;
     text-transform: none;
+    position: relative;
+}
+.title h2::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: #0085d8;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
 }

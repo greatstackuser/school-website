@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './about.css'
 import half_header from '../../assets/half_header.png'
 import our_school from '../../assets/our_school.png'
 
 const OurSchool = () => {
+    useEffect(()=>{
+        window.scrollTo(0,0)
+      }, []);
     return (
         <div className='our-school'>
             <img className='half-header' src={half_header} alt="" />
