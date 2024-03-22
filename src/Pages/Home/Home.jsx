@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Hero from '../../Components/Hero/Hero';
 import Title from '../../Components/Title/Title';
 import Programs from '../../Components/Programs/Programs';
@@ -12,6 +12,10 @@ import VideoPlayer from '../../Components/VideoPlayer/VideoPlayer';
 const Home = () => {
 
     const [playState, setPlayState] = useState(false);
+
+    useEffect(()=>{setPlayState(false)
+
+    },[])
 
   return (
     <div>
