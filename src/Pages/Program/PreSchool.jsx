@@ -13,7 +13,7 @@ const PreSchool = () => {
         <img src={pre_school} alt="" />
           <p>Our pre-school program is designed to provide an environment which is very conducive for a child’s all-round development. We ensure that our classrooms stimulate learning and development in children. Aris-tot-lers follows industry ratios and ensures that ample space is available for our children to learn and grow. Our term starts from June and ends by early April. As part of our Pre-school, we offer the following levels for the appropriate age groups. Certain courses have multiple timings available as well.</p>
           
-          <h4><b>Pre-Nursery: 2 years to 3 years</b></h4>
+          <p><b>Pre-Nursery: 2 years to 3 years</b></p>
           <p>Children at this age have just started discovering themselves and their immediate surroundings. We ensure to create an environment that enhances their understanding of themselves and their surroundings. They scribble and doodle developing their motor skills, learn basic colours and shapes, start recognizing numbers and letters of the alphabet and love listening to rhymes and stories thereby increasing their vocabulary.
             
            </p>

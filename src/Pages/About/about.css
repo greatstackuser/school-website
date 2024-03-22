@@ -17,7 +17,11 @@
     align-items: left;
 }
 .about-container p{
-    line-height: 1.5;
+    line-height: 28px;
+    color: #676767;
+}
+.about-container p b{
+    color: #444;
 }
 .about-container li{
     align-items: start;
@@ -54,4 +58,9 @@ gap: 30px;
            width: 100%;
            max-width: none;
         }
+}
+@media (max-width:500px){
+    .about-container{
+        width: 90%;
+    }
 }

@@ -45,7 +45,7 @@ const Navbar = () => {
            
           </div>
         </HashLink></li> 
-        <li className='relative'><HashLink to='/#about' smooth scroll={el => scrollWithOffset(el, 150)}>
+        <li className='relative'><HashLink to='/#about' smooth scroll={el => scrollWithOffset(el, 260)}>
           <p>About us</p>
           <div className='sub-menu'>
             <p><HashLink to='/about/school' onClick={()=>{setMobileMenu(false)}}>Our School</HashLink></p>

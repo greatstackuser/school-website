@@ -1,5 +1,5 @@
 .about{
-    margin: 100px auto;
+    margin: 80px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,10 +49,7 @@
     flex-wrap: wrap;
 
 }
-.about-btn p a{
-    border: 1px solid #8A8A8A;
-    padding: 10px 20px;
-}
+
 /* ------- media query ------------- */
 @media (max-width: 800px){
     .about{
@@ -65,5 +62,8 @@
     }
     .about-right{
         flex-basis: 100%;
+    }
+    .about-btn .btn{
+        font-size: 14px;
     }
 }

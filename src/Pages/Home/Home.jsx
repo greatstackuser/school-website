@@ -19,6 +19,8 @@ const Home = () => {
      <div className="container">
         <Title subTitle='Our PROGRAM' title='What We Provide'/>
         <Programs/>
+        <Title subTitle='About Us' title='About Us'/>
+    
         <About setPlayState={setPlayState}/>
         <Title subTitle='Gallery' title='Recent Photos'/>
         <Campus/>
