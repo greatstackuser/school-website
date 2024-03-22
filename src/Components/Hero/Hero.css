@@ -29,6 +29,59 @@
     font-size: 120px;
     font-weight: 600;
 }
+.hero-text h1 span:nth-child(1){
+    color: #FCB712;
+
+}
+.hero-text h1 span:nth-child(2){
+    color: #F37022;
+
+}
+.hero-text h1 span:nth-child(3){
+    color: #CD004D;
+
+}
+.hero-text h1 span:nth-child(4){
+    color: #6460AA;
+
+}
+.hero-text h1 span:nth-child(5){
+    color: #0CB14B;
+
+}
+.hero-text h1 span:nth-child(6){
+    color: #0089D1;
+
+}
+.hero-text h1 span:nth-child(7){
+    color: #0CB14B;
+
+}
+.hero-text h1 span:nth-child(8){
+    color: #FCB712;
+
+}
+.hero-text h1 span:nth-child(9){
+    color: #0CB14B;
+
+}
+.hero-text h1 span:nth-child(10){
+    color: #F37022;
+
+}
+.hero-text h1 span:nth-child(11){
+    color: #CD004D;
+
+}
+.hero-text h1 span:nth-child(12){
+    color: #6460AA;
+
+}
+.hero-text h1 span:nth-child(13){
+    color: #0089D1;
+
+}
+
 .hero-text p{
     max-width: 700px;
     margin: 10px auto 20px;

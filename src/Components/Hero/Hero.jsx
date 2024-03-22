@@ -9,7 +9,22 @@ const Hero = () => {
     <div className='hero container'>
       <div className="hero-text">
       <Link to="contact" smooth={true} offset={-260} duration={1000}><h4>Admissions are open <img src={msg_icon} alt="" /></h4></Link>
-        <h1>ARIS-TOT-LERS </h1>
+        <h1>
+          <span>A</span>
+          <span>R</span>
+          <span>I</span>
+          <span>S</span>
+          <span>-</span>
+          <span>T</span>
+          <span>O</span>
+          <span>T</span>
+          <span>-</span>
+          <span>L</span>
+          <span>E</span>
+          <span>R</span>
+          <span>S</span>
+        </h1>
+        {/* <h1>ARIS-TOT-LERS </h1> */}
         <p>A Reggio Inspired School for Toddlers where Learning <br/> Enhances Reasoning</p>
        {/* <Link to="programs" smooth={true} offset={-260} duration={500}> <button className='btn'>Explore more <img src={dark_arrow} alt="" /></button></Link> */}
       </div>
