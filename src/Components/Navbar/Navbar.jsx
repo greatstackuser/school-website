@@ -33,36 +33,31 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
-      <img src={logo} alt="" className='logo' onClick={()=>{navigate('/');window.scrollTo(0,0)}}/>
+      <img src={logo} alt="" className='logo' onClick={()=>{navigate('/');window.scrollTo(0,0);setMobileMenu(false)}}/>
       <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
-        <li onClick={()=>{navigate('/');window.scrollTo(0,0)}}>Home</li>
+        <li onClick={()=>{navigate('/');window.scrollTo(0,0);setMobileMenu(false)}}>Home</li>
         <li className='relative'><HashLink to='/#programs' smooth scroll={el => scrollWithOffset(el, 260)}>
           <p>Program</p>
           <div className='sub-menu'>
-            <p><HashLink to='/program/preschool'>Pre-School</HashLink></p>
-            <p><HashLink to='/program/childcare'>Child Care</HashLink></p>
-            <p><HashLink to='/program/summercamp'>Summer Camp</HashLink></p>
-            {/* <p onClick={()=>navigate('/program/preschool')}>Pre-School</p> */}
-            {/* <p onClick={()=>navigate('/program/childcare')}>Child Care</p> */}
-            {/* <p onClick={()=>navigate('/program/summercamp')}>Summer Camp</p> */}
+            <p><HashLink to='/program/preschool' onClick={()=>{setMobileMenu(false)}}>Pre-School</HashLink></p>
+            <p><HashLink to='/program/childcare' onClick={()=>{setMobileMenu(false)}}>Child Care</HashLink></p>
+            <p><HashLink to='/program/summercamp' onClick={()=>{setMobileMenu(false)}}>Summer Camp</HashLink></p>
+           
           </div>
         </HashLink></li> 
         <li className='relative'><HashLink to='/#about' smooth scroll={el => scrollWithOffset(el, 150)}>
           <p>About us</p>
           <div className='sub-menu'>
-            <p><HashLink to='/about/school'>Our School</HashLink></p>
-            <p><HashLink to='/about/team'>Our Team</HashLink></p>
-            <p><HashLink to='/about/philosophy'>Our Philosophy</HashLink></p>
-            <p><HashLink to='/about/curriculum'>Our Curriculum</HashLink></p>
-            {/* <p onClick={()=>navigate('/about/school')}>Our School</p>
-            <p onClick={()=>navigate('/about/team')}>Our Team</p>
-            <p onClick={()=>navigate('/about/philosophy')}>Our Philosophy</p>
-            <p onClick={()=>navigate('/about/curriculum')}>Our Curriculum</p> */}
+            <p><HashLink to='/about/school' onClick={()=>{setMobileMenu(false)}}>Our School</HashLink></p>
+            <p><HashLink to='/about/team' onClick={()=>{setMobileMenu(false)}}>Our Team</HashLink></p>
+            <p><HashLink to='/about/philosophy' onClick={()=>{setMobileMenu(false)}}>Our Philosophy</HashLink></p>
+            <p><HashLink to='/about/curriculum' onClick={()=>{setMobileMenu(false)}}>Our Curriculum</HashLink></p>
+          
           </div>
         </HashLink></li>
-        <li><HashLink to='/#gallery' smooth scroll={el => scrollWithOffset(el, 260)}>Gallery</HashLink></li>
-        <li><HashLink to='/#testimonials' smooth scroll={el => scrollWithOffset(el, 260)}>Testimonials</HashLink></li>
-        <li><HashLink to='/#contact' smooth scroll={el => scrollWithOffset(el, 260)} className='btn'>Contact us</HashLink></li>
+        <li><HashLink to='/#gallery' smooth scroll={el => scrollWithOffset(el, 260)} onClick={()=>{setMobileMenu(false)}}>Gallery</HashLink></li>
+        <li><HashLink to='/#testimonials' smooth scroll={el => scrollWithOffset(el, 260)} onClick={()=>{setMobileMenu(false)}}>Testimonials</HashLink></li>
+        <li><HashLink to='/#contact' smooth scroll={el => scrollWithOffset(el, 260)} className='btn' onClick={()=>{setMobileMenu(false)}}>Contact us</HashLink></li>
       </ul>
       <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu} />
     </nav>
