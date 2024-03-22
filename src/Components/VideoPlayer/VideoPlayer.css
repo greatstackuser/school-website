@@ -20,3 +20,10 @@
 .video-player.hide{
     display: flex;
 }
+.video-player video{
+    display: none;
+}
+.video-player.hide video{
+    display: block;
+
+}
