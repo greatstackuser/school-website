@@ -10,6 +10,17 @@ import user_1 from '../../assets/user-1.png'
 import user_2 from '../../assets/user-2.png'
 import user_3 from '../../assets/user-3.png'
 import user_4 from '../../assets/user-4.png'
+import himanshu from '../../assets/himanshu-kandpal.png'
+import sankar from '../../assets/sankar.png'
+import tejal from '../../assets/tejal-patel.png'
+import vani from '../../assets/vani-k.png'
+import veena from '../../assets/veena-r.png'
+import ankur from '../../assets/ankur-kansal.png'
+import swati from '../../assets/swati-jain.png'
+import swarnima from '../../assets/swarnima-singh.png'
+
+
+
 
 const Testimonials = () => {
 
@@ -36,7 +47,7 @@ const Testimonials = () => {
            
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_2} alt="" />
+                        <img src={himanshu} alt="" />
                         <div>
                             <h3>Himanshu Kandpal</h3>
                             <span>Brookefield </span>
@@ -50,7 +61,7 @@ const Testimonials = () => {
               
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_3} alt="" />
+                        <img src={sankar} alt="" />
                         <div>
                             <h3>Sankar Gopalan</h3>
                             <span>Brookefield </span>
@@ -64,7 +75,7 @@ const Testimonials = () => {
       
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_4} alt="" />
+                        <img src={tejal} alt="" />
                         <div>
                             <h3>Tejal Patel</h3>
                             <span>Brookefield </span>
@@ -78,7 +89,7 @@ const Testimonials = () => {
             
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_1} alt="" />
+                        <img src={vani} alt="" />
                         <div>
                             <h3>Vani Krishnamurthy</h3>
                             <span>Brookefield </span>
@@ -92,7 +103,7 @@ const Testimonials = () => {
            
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_1} alt="" />
+                        <img src={veena} alt="" />
                         <div>
                             <h3>Veena R</h3>
                             <span>Brookefield </span>
@@ -102,7 +113,7 @@ const Testimonials = () => {
                 </div>
             
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
          
                 <div className="slide">
                     <div className="user-info">
@@ -115,8 +126,8 @@ const Testimonials = () => {
                     <p>One of the best preschools in AECS layout. I highly recommend this preschool. The management and the complete staff is too good. The teachers are skilled and overall development of the kids is taken care of. The teaching methodology is very good and organized at the same time. </p>
                 </div>
          
-            </SwiperSlide>
-            <SwiperSlide>
+            </SwiperSlide> */}
+            {/* <SwiperSlide>
           
                 <div className="slide">
                     <div className="user-info">
@@ -129,12 +140,12 @@ const Testimonials = () => {
                     <p>My kid attended Aristotlers for four years, all the way from playgroup to ukg, and loved it! The teachers and staff are kind and caring. Vibha (who runs Aristotlers) is always available to talk, and actually listens to parents. She knew every child at Aristotlers.</p>
                 </div>
            
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
 
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_4} alt="" />
+                        <img src={ankur} alt="" />
                         <div>
                             <h3>Ankur Kansal</h3>
                             <span>Brookefield </span>
@@ -148,7 +159,7 @@ const Testimonials = () => {
          
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_1} alt="" />
+                        <img src={swati} alt="" />
                         <div>
                             <h3>Swati Jain</h3>
                             <span>Brookefield </span>
@@ -162,7 +173,7 @@ const Testimonials = () => {
        
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_1} alt="" />
+                        <img src={swarnima} alt="" />
                         <div>
                             <h3>Swarnima Singh</h3>
                             <span>Brookefield </span>
