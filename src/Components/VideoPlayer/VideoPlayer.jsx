@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import './VideoPlayer.css'
 import video from '../../assets/college-video.mp4'
 
